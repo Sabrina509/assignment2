@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         fText=(EditText) findViewById(R.id.editText);
         sText=(TextView) findViewById(R.id.textView);
 
-        mbutton.setOnClickListener(new View.OnClickListener() {
+        mybutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Double convert= Double.parseDouble(fText.getText().toString());
@@ -32,3 +32,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+}
